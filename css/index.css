@@ -1,3 +1,13 @@
 .puntero{
     cursor: pointer;
 }
+
+.centrarContenido{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.ultimo{
+    background-color: orange;
+}

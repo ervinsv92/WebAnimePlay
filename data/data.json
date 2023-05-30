@@ -6,28 +6,132 @@
             {
                 "numeroCapitulo":1,
                 "nombreCapitulo":"Capitulo 1",
-                "pathCapitulo":"animes/1.mp4"
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-01.mp4"
             },
             {
                 "numeroCapitulo":2,
                 "nombreCapitulo":"Capitulo 2",
-                "pathCapitulo":""
-            }
-        ]
-    },
-    {
-        "nombreAnime":"Kimetsu No Yaiba Temp 2",
-        "idAnime":"KimetsuNoYaibaTemp2",
-        "capitulos":[
-            {
-                "numeroCapitulo":1,
-                "nombreCapitulo":"",
-                "pathCapitulo":""
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-02.mp4"
+            },
+			{
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-04.mp4"
             },
             {
-                "numeroCapitulo":2,
-                "nombreCapitulo":"",
-                "pathCapitulo":""
+                "numeroCapitulo":4,
+                "nombreCapitulo":"Capitulo 4",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-04.mp4"
+            },
+            {
+                "numeroCapitulo":5,
+                "nombreCapitulo":"Capitulo 5",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-05.mp4"
+            },
+            {
+                "numeroCapitulo":6,
+                "nombreCapitulo":"Capitulo 6",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-06.mp4"
+            },
+            {
+                "numeroCapitulo":7,
+                "nombreCapitulo":"Capitulo 7",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-07.mp4"
+            },
+            {
+                "numeroCapitulo":8,
+                "nombreCapitulo":"Capitulo 8",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-08.mp4"
+            },
+            {
+                "numeroCapitulo":9,
+                "nombreCapitulo":"Capitulo 9",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-09.mp4"
+            },
+            {
+                "numeroCapitulo":10,
+                "nombreCapitulo":"Capitulo 10",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-10.mp4"
+            },
+            {
+                "numeroCapitulo":11,
+                "nombreCapitulo":"Capitulo 11",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-11.mp4"
+            },
+            {
+                "numeroCapitulo":12,
+                "nombreCapitulo":"Capitulo 12",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-12.mp4"
+            },
+            {
+                "numeroCapitulo":13,
+                "nombreCapitulo":"Capitulo 13",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-13.mp4"
+            },
+            {
+                "numeroCapitulo":14,
+                "nombreCapitulo":"Capitulo 14",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-14.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
+            },
+            {
+                "numeroCapitulo":3,
+                "nombreCapitulo":"Capitulo 3",
+                "pathCapitulo":"animes/KimetsuNoYaibaTemp1/kimetsu-no-yaiba-03.mp4"
             }
         ]
     }

@@ -10,9 +10,8 @@
 </head>
 <body>
     <div class="container mt-2">
-        <h2 id="lblAnime">Anime</h2>
+        <h2 id="h2Animes" class="puntero"><-- <span id="lblAnime">Anime</span></h2>
         <ul id="ulCapitulos" class="list-group">
-
         </ul>
     </div>
     <script src="js/jquery-3.7.0.min.js"></script>
@@ -24,14 +23,18 @@
         <div class="modal-dialog modal-fullscreen">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Capitulo</h5>
+              <h5 class="modal-title"><span id="txtNombreCapitulo"> </span></h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-              <video id="vCapitulo" src="" width="400" height="400" controls></video>
+            <div class="modal-body centrarContenido">
+              <video id="vCapitulo" src="" width="100%" height="100%" controls></video>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button id="btnAtras" type="button" class="btn btn-secondary"><--</button>
+                <button id="btnAdelante" type="button" class="btn btn-secondary">--></button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
             </div>
           </div>
         </div>
