@@ -1,0 +1,34 @@
+[
+    {
+        "nombreAnime":"Kimetsu No Yaiba Temp 1",
+        "idAnime":"KimetsuNoYaibaTemp1",
+        "capitulos":[
+            {
+                "numeroCapitulo":1,
+                "nombreCapitulo":"Capitulo 1",
+                "pathCapitulo":"animes/1.mp4"
+            },
+            {
+                "numeroCapitulo":2,
+                "nombreCapitulo":"Capitulo 2",
+                "pathCapitulo":""
+            }
+        ]
+    },
+    {
+        "nombreAnime":"Kimetsu No Yaiba Temp 2",
+        "idAnime":"KimetsuNoYaibaTemp2",
+        "capitulos":[
+            {
+                "numeroCapitulo":1,
+                "nombreCapitulo":"",
+                "pathCapitulo":""
+            },
+            {
+                "numeroCapitulo":2,
+                "nombreCapitulo":"",
+                "pathCapitulo":""
+            }
+        ]
+    }
+]
