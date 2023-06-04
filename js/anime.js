@@ -114,8 +114,8 @@ const pintarCapitulos = ()=>{
     _anime.capitulos.forEach(capitulo=>{
         const key = `${_TIEMPO}${_anime.idAnime}${capitulo.numeroCapitulo}`;
         const capActual = _storeArray.find(x=>x.key == key);
-        let actual = capActual?capActual.actual:0;
-        let total = capActual?capActual.total:1;
+        let actual = capActual?capActual.value.actual:0;
+        let total = capActual?capActual.value.total:1;
 
         $ulCapitulos.append(`<li class="list-group-item puntero" data-id='${capitulo.numeroCapitulo}'>${capitulo.nombreCapitulo}<div class="progress">
         <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: ${(actual/total)*100}%"></div>
