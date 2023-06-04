@@ -1,5 +1,6 @@
 const fs = require('fs'); 
 const FOLDER_PRINCIPAL = 'animes';
+const DATA_JSON = `${__dirname}/data.json`;
 const carpetas = fs.readdirSync(__dirname, {withFileTypes:true}).filter(x=>x.isDirectory()).map(carpeta => (carpeta.name));
 
 const carpetasJSON = carpetas.map(carpeta=>({
@@ -16,4 +17,17 @@ carpetasJSON.forEach((anime,idx) => {
     }));
     anime.capitulos = capitulos || [];
 });
-console.log(JSON.stringify(carpetasJSON));
+
+try {
+    fs.unlinkSync(DATA_JSON);
+  
+    console.log("Delete File successfully.");
+  } catch (error) {
+  }
+
+try {
+    fs.writeFileSync(DATA_JSON, JSON.stringify(carpetasJSON));
+    // file written successfully
+} catch (err) {
+    console.error(err);
+}
