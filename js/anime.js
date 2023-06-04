@@ -113,8 +113,9 @@ const pintarCapitulos = ()=>{
     $ulCapitulos.empty();
     _anime.capitulos.forEach(capitulo=>{
         const key = `${_TIEMPO}${_anime.idAnime}${capitulo.numeroCapitulo}`;
-        const {actual = 0, total=1} = _storeArray.find(x=>x.key == key).value;
-        console.log(actual, total, (actual/total)*100)
+        const capActual = _storeArray.find(x=>x.key == key);
+        let actual = capActual?capActual.actual:0;
+        let total = capActual?capActual.total:1;
 
         $ulCapitulos.append(`<li class="list-group-item puntero" data-id='${capitulo.numeroCapitulo}'>${capitulo.nombreCapitulo}<div class="progress">
         <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: ${(actual/total)*100}%"></div>
@@ -126,8 +127,9 @@ const pintarCapitulos = ()=>{
 
 const pintarUltimo = ()=>{
     const key = `${_ULTIMO}${_anime.idAnime}`;
-    console.log(_storeArray)
-    const numero = _storeArray.find(x=>x.key == key).value;
+
+    const ultimoCap = _storeArray.find(x=>x.key == key);
+    let numero = ultimoCap?ultimoCap.value:0;
     $('.ultimo').removeClass('ultimo');
     $(`li[data-id='${numero}']`).addClass('ultimo');
 }
